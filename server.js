@@ -7,7 +7,7 @@ const socket = require("socket.io");
 
 const io = socket(server,{
   cors:{
-    origin: "*",
+    origin: "https://ummtojoin-5e6d5.web.app/",
     methods: ["GET", "POST", "PUT", "DELETE"]
   }
 });
